@@ -6,10 +6,7 @@
 
 ### 推送卡片样式：
 
-```
-<img width="638" height="824" alt="image" src="https://github.com/user-attachments/assets/6858798b-60a2-40ad-83e6-424fabbc7b25" />
-
-```
+<img width="642" height="838" alt="image" src="https://github.com/user-attachments/assets/a7182e97-972b-4a96-b644-8fa65f8c8951" />
 
 ### HTML 简报效果：
 

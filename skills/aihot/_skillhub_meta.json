@@ -1,0 +1,20 @@
+{
+  "name": "AIHOT",
+  "installedAt": 1781143504323,
+  "source": "marketplace",
+  "version": "1.2.1",
+  "skillId": "skill_2053079401717506048",
+  "examples_zh": [
+    "今天 AI 圈有什么大新闻？",
+    "帮我看一下最近的 AI 日报",
+    "OpenAI 最近发布了什么？"
+  ],
+  "examples_en": [
+    "What's hot in AI today?",
+    "Show me the latest AI daily briefing",
+    "What has Anthropic released recently?"
+  ],
+  "iconSource": "https://openplatform-cdn.codebuddy.cn/public/skills/icons/aihot.svg",
+  "iconLocalPath": "C:\\Users\\Carlo\\.workbuddy\\skills\\skill_2053079401717506048\\_icon.svg",
+  "iconDownloadedFrom": "https://openplatform-cdn.codebuddy.cn/public/skills/icons/aihot.svg"
+}

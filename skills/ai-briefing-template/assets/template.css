@@ -1,0 +1,179 @@
+/* ===== Reset ===== */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+/* ===== Base — Magazine Typography ===== */
+body {
+  font-family: "Noto Serif SC", "Source Han Serif SC", "Songti SC", Georgia, "Times New Roman", serif;
+  background: #f5f3ee;
+  color: #2d2b26;
+  line-height: 1.75;
+  max-width: 680px;
+  margin: 0 auto;
+  padding: 0 28px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Sans-serif Utility Layer */
+h1, h2, .source-tag, .time-tag, .summary-title, .article-num {
+  font-family: "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+/* ===== Masthead ===== */
+.masthead {
+  padding: 48px 0 32px;
+  border-bottom: 1px solid #b3b0a8;
+  margin-bottom: 36px;
+}
+.masthead h1 {
+  font-size: clamp(1.6rem, 3.5vw, 1.95rem);
+  font-weight: 700;
+  color: #23211d;
+  line-height: 1.25;
+  margin-bottom: 6px;
+  letter-spacing: 0.01em;
+}
+.masthead .sub {
+  font-size: 0.78rem;
+  color: #807d75;
+  letter-spacing: 0.03em;
+}
+
+/* ===== Summary Box ===== */
+.summary-box {
+  border: 1px solid #cdc9c1;
+  border-left: 3px solid #8b4513;
+  padding: 22px 26px;
+  margin-bottom: 40px;
+  background: #faf9f6;
+}
+.summary-title {
+  font-size: 0.68rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: #76736c;
+  margin-bottom: 12px;
+}
+.summary-list { list-style: none; padding: 0; margin: 0; }
+.summary-list li {
+  font-family: "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 0.88rem;
+  color: #47453f;
+  line-height: 2;
+}
+.summary-list li::before {
+  content: "—";
+  color: #8b4513;
+  margin-right: 9px;
+}
+
+/* ===== Section Header ===== */
+.section-header {
+  margin: 40px 0 22px;
+}
+.section-header h2 {
+  font-size: 0.65rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: #76736c;
+  padding-bottom: 8px;
+  border-bottom: 1px solid #c2bfb8;
+  display: inline-block;
+}
+
+/* ===== Article ===== */
+.article {
+  padding: 22px 0 22px 54px;
+  border-bottom: 1px solid #d4d2cb;
+  position: relative;
+}
+.article:last-child { border-bottom: none; }
+
+/* Decorative number */
+.article-num {
+  position: absolute;
+  left: 0;
+  top: 20px;
+  font-size: 2rem;
+  font-weight: 700;
+  color: #d4d2ca;
+  line-height: 1;
+}
+
+/* Category Color Variables */
+.cat-top   { --cat-accent: #3366cc; }
+.cat-edu   { --cat-accent: #2d8a4e; }
+.cat-model { --cat-accent: #7b4ea0; }
+.cat-tool  { --cat-accent: #3388bb; }
+.cat-tip   { --cat-accent: #b8860b; }
+.cat-brief { --cat-accent: #96938d; }
+
+/* Title */
+.article a.title {
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: #23211d;
+  text-decoration: none;
+  display: block;
+  margin-bottom: 6px;
+  line-height: 1.35;
+  transition: color 0.2s;
+}
+.article a.title:hover { color: #8b4513; }
+
+/* Meta row */
+.meta-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 10px;
+  flex-wrap: wrap;
+}
+.source-tag {
+  font-size: 0.7rem;
+  color: #8b4513;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+}
+.time-tag {
+  font-size: 0.7rem;
+  color: #8a8780;
+}
+
+/* Summary text */
+.summary {
+  font-size: 0.9rem;
+  color: #504e48;
+  line-height: 1.75;
+  max-width: 60ch;
+}
+.summary p { margin-bottom: 8px; }
+.summary p:last-child { margin-bottom: 0; }
+.highlight { color: #8b4513; font-weight: 600; }
+
+/* ===== Footer ===== */
+.footer {
+  margin: 40px 0 36px;
+  padding-top: 24px;
+  border-top: 1px solid #cdc9c1;
+  text-align: center;
+  font-size: 0.7rem;
+  color: #8f8c85;
+  letter-spacing: 0.03em;
+  line-height: 1.8;
+}
+.footer a {
+  color: #8b4513;
+  text-decoration: none;
+}
+.footer a:hover { text-decoration: underline; }
+
+/* ===== Responsive ===== */
+@media (max-width: 600px) {
+  body { padding: 0 16px; }
+  .masthead { padding: 36px 0 24px; margin-bottom: 28px; }
+  .article { padding-left: 40px; }
+  .article-num { font-size: 1.5rem; top: 22px; }
+  .summary-box { padding: 18px 18px; margin-bottom: 30px; }
+  .section-header { margin: 32px 0 18px; }
+}

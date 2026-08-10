@@ -1,6 +1,21 @@
 # AI 资讯推送机器人
 
-🤖 基于 WorkBuddy Skill 体系的每日 AI 简报自动化生成与推送工具
+🤖  每日AI简报自动化生成与推送工具的Skill体系
+
+## 📝 输出示例
+
+### 推送卡片样式：
+
+```
+<img width="638" height="824" alt="image" src="https://github.com/user-attachments/assets/6858798b-60a2-40ad-83e6-424fabbc7b25" />
+
+```
+
+### HTML 简报效果：
+
+<img width="2556" height="1598" alt="image" src="https://github.com/user-attachments/assets/3fefb3d7-1f5c-4d7e-95af-1bbe48af72d6" />
+<img width="2558" height="1598" alt="image" src="https://github.com/user-attachments/assets/74d9c916-b414-497e-b2de-08bb001d3027" />
+
 
 ## ✨ 功能介绍
 
@@ -34,7 +49,7 @@
 
 ### 前置准备
 
-1. **安装 Agent 桌面端工具
+1. **安装 Agent 桌面端工具**
    - WorkBuddy（推荐）
    - Trae
    - 或其他支持 Skill 体系的 Agent 桌面端
@@ -96,29 +111,6 @@ AI资讯推送机器人/
 ### 封面图自定义
 
 替换 `wecom-group-send/assets/cover_banner.png` 为你的自定义封面图，推荐尺寸 1024×441。
-
-## 📝 输出示例
-
-### 推送卡片样式：
-
-```
-📰 今日AI简报 | 2026年08月10日
-
-[封面图]
-
-— GPT-5.6 发布，ChatGPT Work 上线
-— 本地数学 Agent TeXada 发布
-— Claude 推出反思功能
-
-[共X条精选，查看完整简报]
-```
-
-### HTML 简报效果：
-
-- 极简杂志风排版
-- 响应式设计，适配手机/桌面
-- 每条新闻包含来源、时间、链接
-- 摘要列表快速预览
 
 ## 🔧 Skill 说明
 
